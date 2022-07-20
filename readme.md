@@ -12,8 +12,16 @@ __Function details__
 __Input parameters -__ 
 * lat: latitude of city center 
 * lon: longtitude of city center 
-* step_dis: Distance jumped in 1 iteration i.e size of the block
+* step_dis: Distance jumped in 1 iteration i.e size of the block (in kilometers)
 * step_size: # steps i.e. number of blocks
+
+__Example__ 
+As an example, consider the city and the suburbs of New  Delhi. We start with an approx city center with lat = 28.579789 and long = 77.196710. 
+We try with a 4km step distnace and 10 steps.  
+The output looks like the following - 
+
+![Screenshot](distance_covered.png)
+
 
 
 
