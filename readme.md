@@ -19,11 +19,12 @@ __Example__
 As an example, consider the city and the suburbs of New  Delhi. We start with an approx city center with lat = 28.579789 and long = 77.196710. 
 We try with a 4km step distnace and 10 steps.  i.e with the gibven city center, we are create a grid of 40kms.
 The output data frame looks like the following - 
+
 ![Screenshot](grid_output.png)
-<br>
+
 if we try to plot these lats and longs on the map, it looks like we have coverage of the entire city!
+
 ![Screenshot](distance_covered.png)
-<br>
 
 __Sources & shoutouts:__
 * Google Maps Nearby Search: https://developers.google.com/maps/documentation/places/web-service/search-find-place
