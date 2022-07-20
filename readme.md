@@ -8,7 +8,8 @@ and get a much wider search.
 
 __Function details__
 * Name: my_grid
-** Input parameters - 
+
+__Input parameters -__ 
 * lat: latitude of city center 
 * lon: longtitude of city center 
 * step_dis: Distance jumped in 1 iteration i.e size of the block
